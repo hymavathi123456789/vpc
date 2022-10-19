@@ -4,4 +4,4 @@ variable "name" {
   description = "Name of the VPC"
 }
 
-variable "vpc_cidr" {}
+variable "var.vpc_cidr" {}
