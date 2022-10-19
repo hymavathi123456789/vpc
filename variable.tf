@@ -1,4 +1,5 @@
-variable "vpc_cidr" {
-    description = "creating"
-    type = "string" 
+variable "name" {
+  default     = "stage"
+  type        = string
+  description = "Name of the VPC"
 }
